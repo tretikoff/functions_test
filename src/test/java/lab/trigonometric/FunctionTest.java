@@ -39,18 +39,8 @@ public class FunctionTest {
     }
 
     @Test
-    public void ltZero() {
-        util.doCheck(-0.01, precision);
-    }
-
-    @Test
     public void zero() {
         util.doCheck(0.0, precision);
-    }
-
-    @Test
-    public void gtZero() {
-        util.doCheck(0.01, precision);
     }
 
     @Test
@@ -141,21 +131,8 @@ public class FunctionTest {
     }
 
     @Test
-    public void gtMinusPi() {
-        double extrema = -PI + 0.01;
-        util.doCheck(extrema, precision);
-    }
-
-    @Test
     public void minusPi() {
         double extrema = -PI;
         util.doCheck(extrema, precision);
     }
-
-    @Test
-    public void ltMinusPi() {
-        double extrema = -PI - 0.01;
-        util.doCheck(extrema, precision);
-    }
-
 }

@@ -19,20 +19,18 @@ public class Tangent extends AbstractFunction {
 
     {
         table.put(-PI, 0.0);
-        table.put(-PI / 2, NEGATIVE_INFINITY);
+        table.put(-PI / 2, NaN);
         table.put(0.0, 0.0);
-        table.put(PI / 2, POSITIVE_INFINITY);
+        table.put(PI / 2, NaN);
         table.put(PI, 0.0);
 
-//        table.put(3 * PI / 4, -1.0000051536258532);
-//        table.put(-3 * PI / 4, 1.0000051536258532);
         table.put(3 * PI / 4, -1.0);
         table.put(-3 * PI / 4, 1.0);
         table.put(PI / 4, 1.0);
         table.put(-PI / 4, -1.0);
         function = Functions.TANGENT;
 
-        table.put(-PI * 1.5, NEGATIVE_INFINITY);
+        table.put(-PI * 1.5, NaN);
         table.put(-PI * 1.5 + PI / 16, -5.027339481844);
         table.put(-PI * 1.5 + 2 * PI / 16, -2.414214618296);
     }
@@ -55,8 +53,8 @@ public class Tangent extends AbstractFunction {
 
     @Override
     protected double calculate(double arg) {
-        double cos = cosinus.calculate(arg);
         double sin = sinus.calculate(arg);
+        double cos = cosinus.calculate(arg);
         if (Math.abs(cos) < DELTA) {
             return NaN;
         }

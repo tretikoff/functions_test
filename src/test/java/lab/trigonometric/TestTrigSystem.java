@@ -24,7 +24,7 @@ public class TestTrigSystem {
         tan.setFuncIsStub(false);
         Cotangent cot = new Cotangent(precision);
         cot.setFuncIsStub(false);
-        function.setPrecision(0.4);
+        function.setPrecision(0.04);
     }
 
     @Test

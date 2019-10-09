@@ -11,9 +11,9 @@ public class Secant extends AbstractFunction {
     {
 //        table.put(-PI, -1.0000001352604628);
         table.put(-PI, -1.0);
-        table.put(-PI / 2, Double.POSITIVE_INFINITY);
+        table.put(-PI / 2, NaN);
         table.put(0.0, 1.0);
-        table.put(PI / 2, Double.POSITIVE_INFINITY);
+        table.put(PI / 2, NaN);
 //        table.put(PI, -1.0000001352604628);
         table.put(PI, -1.0);
 

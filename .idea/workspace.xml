@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0744911f-8559-476f-b22c-205ca403ca73" name="Default Changelist" comment="">
+    <list default="true" id="0744911f-8559-476f-b22c-205ca403ca73" name="Default Changelist" comment="Fix infinity value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/TestPO/lab/util/CSVWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/TestPO/lab/util/CSVWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemEightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemFiveTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemFourTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemSevenTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemSixTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemThreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/FunctionSystemTwoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Cosecant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Cosecant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/util/CSVWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/util/CSVWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemEightTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemFiveTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemFourTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemOneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemSevenTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemSixTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemThreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/FunctionSystemTwoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/TestPO/lab/trigonometric/Cotangent.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/TestPO/lab/trigonometric/Cotangent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/TestPO/lab/trigonometric/Secant.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/TestPO/lab/trigonometric/Secant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/TestPO/lab/trigonometric/Tangent.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/TestPO/lab/trigonometric/Tangent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/test/TestPO/lab/trigonometric/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/test/TestPO/lab/trigonometric/FunctionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Cotangent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Cotangent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Secant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Secant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Tangent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/trigonometric/Tangent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab/trigonometric/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab/trigonometric/FunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lab/trigonometric/TestTrigSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab/trigonometric/TestTrigSystem.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestPO2.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestPO3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,8 +91,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTrigSystem.TestFunction">
-    <configuration name="FunctionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestLogSystem">
+    <configuration name="CotangentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestPO" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +101,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lab.trigonometric" />
-      <option name="MAIN_CLASS_NAME" value="lab.trigonometric.FunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="lab.trigonometric.CotangentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestPO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.trigonometric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.trigonometric" />
+      <option name="MAIN_CLASS_NAME" value="lab.trigonometric.SecantTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TangentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestPO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.trigonometric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.trigonometric" />
+      <option name="MAIN_CLASS_NAME" value="lab.trigonometric.TangentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,22 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogSystem.TestFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestPO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab.logarithmic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab.logarithmic" />
-      <option name="MAIN_CLASS_NAME" value="lab.logarithmic.TestLogSystem" />
-      <option name="METHOD_NAME" value="TestFunction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestTrigSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestPO" />
       <extension name="coverage">
@@ -164,29 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTrigSystem.TestFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestPO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab.trigonometric.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab.trigonometric" />
-      <option name="MAIN_CLASS_NAME" value="lab.trigonometric.TestTrigSystem" />
-      <option name="METHOD_NAME" value="TestFunction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTrigSystem.TestFunction" />
-        <item itemvalue="JUnit.TestTrigSystem" />
         <item itemvalue="JUnit.TestLogSystem" />
-        <item itemvalue="JUnit.TestLogSystem.TestFunction" />
-        <item itemvalue="JUnit.FunctionTest (1)" />
+        <item itemvalue="JUnit.TestTrigSystem" />
+        <item itemvalue="JUnit.CotangentTest" />
+        <item itemvalue="JUnit.TangentTest" />
+        <item itemvalue="JUnit.SecantTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +193,8 @@
       <workItem from="1569341910656" duration="2837000" />
       <workItem from="1569348552754" duration="3211000" />
       <workItem from="1570534633574" duration="324000" />
-      <workItem from="1570535694535" duration="14432000" />
+      <workItem from="1570535694535" duration="15400000" />
+      <workItem from="1570601194440" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="WIP:">
       <created>1570551265332</created>
@@ -222,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570553001000</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WIP:">
+      <created>1570554608389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570554608389</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix infinity value">
+      <created>1570554694614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570554694614</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,17 +245,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WIP:" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP:" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lab/trigonometric/CotangentTest.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fix infinity value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix infinity value" />
   </component>
 </project>
